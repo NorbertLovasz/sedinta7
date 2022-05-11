@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Includem link-ul de css pentru Bootstrap. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="components.css">
+</head>
+<body>
+    <!-- Butoane -->
+    <div class="mb-5">
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+    </div>
+
+    <!-- Dropdown button -->
+    <div class="dropdown mb-5">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Vezi optiunile
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Link 1</a></li>
+            <li><a class="dropdown-item" href="#">Link 2</a></li>
+            <li><a class="dropdown-item" href="#">Link 3</a></li>
+        </ul>
+    </div>
+
+    <!-- Spinner -->
+    <div class="spinner-border mb-5" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+
+    <!-- Card -->
+    <div class="card mb-5" style="width: 18rem;">
+        <img src="https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg" class="card-img-top" alt="The Rock">
+        <div class="card-body">
+            <h5 class="card-title">Dwayne "The Rock" Johnson</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <!-- Carusel -->
+    <!-- Pe langa copy-paste am adugat si clasa w-50, care insemna width: 50% -->
+    <div id="carouselExampleIndicators" class="carousel slide w-50" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/france-v-germany-uefa-nations-league-a-5bca0ac66f0e5b6500000001.jpg" class="d-block w-100" alt="Mbappe">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.gannett-cdn.com/-mm-/d5cc2e96a619a990e1e2f0f6e5f6ff27d71df61e/c=0-767-2890-2400/local/-/media/2018/05/15/USATODAY/USATODAY/636620180299652238-AFP-AFP-1385P1-98737481.JPG?width=2890&height=1633&fit=crop&format=pjpg&auto=webp" class="d-block w-100" alt="Ronaldo">
+            </div>
+            <div class="carousel-item">
+                <img src="https://amayei.nyc3.digitaloceanspaces.com/2018/09/salaah.jpg" class="d-block w-100" alt="Salah">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Includem script-ul de css pentru Bootstrap. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

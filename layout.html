@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Includem link-ul de css pentru Bootstrap. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Parintele grid-ului trebuite sa aiba clasa container (sau container-fluid). -->
+    <div class="container">
+        <!-- Copilul lui container trebuie sa aiba clasa row. -->
+        <div class="row">
+            <!-- Un rand are 12 unitati. Aceste unitati vor fi ocupate de coloane.
+            Doua col-6 ocupa in total 12 unitati, deci un rand intreg.
+            Ce se intampla cand un rand este ocupat complet? Se trece automat pe randul urmator!
+            col-lg-4 => Pentru latimi mai mari de 992px (vezi breakpoints), ocupa 4 unitati (deci 3 pe rand).
+            col-md-6 => Pentru latimi mai mari de 768px, ocupa 6 unitati (deci 2 pe rand).
+            col-12 => Pentru restul (noi am dat valori pentru latimi >= 768px, deci restul inseamna < 768px) ocupa 12 unitati (deci tot randul). -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/france-v-germany-uefa-nations-league-a-5bca0ac66f0e5b6500000001.jpg" class="d-block w-100" alt="Mbappe">
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <img src="https://www.gannett-cdn.com/-mm-/d5cc2e96a619a990e1e2f0f6e5f6ff27d71df61e/c=0-767-2890-2400/local/-/media/2018/05/15/USATODAY/USATODAY/636620180299652238-AFP-AFP-1385P1-98737481.JPG?width=2890&height=1633&fit=crop&format=pjpg&auto=webp" class="d-block w-100" alt="Ronaldo">
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <img src="https://amayei.nyc3.digitaloceanspaces.com/2018/09/salaah.jpg" class="d-block w-100" alt="Salah">
+            </div>
+        </div>
+    </div>
+
+    <!-- Includem script-ul de css pentru Bootstrap. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
